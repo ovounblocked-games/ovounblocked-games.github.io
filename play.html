@@ -150,42 +150,40 @@
           
 
 
- <!-- ABOUT US AREA START -->
-    <div class="ltn__about-us-area pt-50 pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-img-wrap about-img-left">
-                        <img src="img/img1.png" alt="About Us Image">
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-info-wrap">
-                        <div class="section-title-area ltn__section-title-2">
-    
-                            <h1 class="section-title">OvO Unblocked Game</h1>
-                            <p>OvO is a super fun running game that students can play on their school Chromebooks without any restrictions.</p>
-                        </div>
-                        <p> OvO offers an engaging experience that combines fun with mental and physical challenges, making it perfect for players of all skill levels. Dive into 52 themed stages, navigate through obstacles like death spikes, fire rockets, and teleportation portals, and aim to complete the game with lightning speed. OvO is the ultimate fast-paced platformer that will keep you on your toes!</p>
-                        <div class="about-author-info d-flex">
-                            <div class="author-name-designation  align-self-center mr-30">
-                            <button class="btn theme-btn-1 btn-effect-1 text-uppercase"> <a href="play.html"> PLAY NOW</a> </button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ABOUT US AREA END -->
+ <!-- iframe Game -->
+<div class="container" style="padding-top:20px; padding-bottom:20px" align="Center">
+  <iframe class="gm-iframe" id="gm-area" src="https://bonbang.github.io/store77/ovo/" width="810" height="540" scrolling="none" frameborder="0" allowfullscreen></iframe>
+   <div style="padding-top: 10px;" class="container" align="Center"> 
+      <button  class="btn theme-btn-1 btn-effect-1 text-uppercase" onclick="openFullscreen();">FullScreen</button>
+
+   </div>
+
+<script>
+var elem = document.getElementById("gm-area");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+
+</div>
+<!-- End iframe Game -->
 
             </div>
 
+<div class="section-title-area ltn__section-title-3 text-center">
+                        <h1 class="section-title">OvO</h1>
+                    </div>
 
 
-            <div class="row ltn__tab-product-slider-one-active--- slick-arrow-1">
-                
+            <div style="padding-top:30px" class="row ltn__tab-product-slider-one-active--- slick-arrow-1">
+
+
                 <!-- ltn__product-item -->
                 <div title="Retro Bowl" class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="ltn__product-item ltn__product-item-3 text-left">
